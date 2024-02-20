@@ -11,11 +11,16 @@ import NotificationList from './chapter6/NotificationList';
 import Accomodate from './chapter7/Accomodate';
 import ConfirmButtonclassver from './chapter8/ConfirmButtonclassver';
 import ConfirmButtonfuncver from './chapter8/ConfirmButtonfuncver';
+import LandingPage from './chapter9/LandingPage';
+import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
+import Calculator from './chapter12/Calculator';
+import ProfileCard from './chapter13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <ConfirmButtonfuncver />
+        <ProfileCard/>
     </React.StrictMode>
 );
 

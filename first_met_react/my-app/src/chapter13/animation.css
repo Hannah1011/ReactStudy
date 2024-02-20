@@ -1,0 +1,35 @@
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.74);
+    }
+    50% {
+        box-shadow: 0 0 10px 7px rgba(255, 254, 248, 0.993);
+    }
+    100% {
+        box-shadow: 0 0 2px 0px rgba(255, 234, 178, 0.74);
+    }
+}
+
+/* animation.css */
+.image_example {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f03f;
+    animation: pulse 2s infinite;
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px grey;
+    background-color: white;
+}
+
+.text_container {
+    margin-left: 20px;
+    }
