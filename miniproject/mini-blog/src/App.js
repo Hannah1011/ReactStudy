@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -10,7 +10,9 @@ import PostWritePage from './component/page/PostWritePage';
 import PostViewPage from './component/page/PostViewPage';
 
 const MainTitleText = styled.p`
-  font-size: 24px;
+  margin: 10px;
+  font-size: 40px;
+  font-family: 'KBO-Dia-Gothic_bold', sans-serif;
   font-weight: bold;
   text-align: center;
   `;
@@ -18,7 +20,7 @@ const MainTitleText = styled.p`
 function App(props){
   return (
     <BrowserRouter>
-      <MainTitleText> 혜나의 미니 블로그</MainTitleText>
+      <MainTitleText> 리액트 컴포넌트 이해하기 </MainTitleText>
       <Routes>
         <Route index element = {<MainPage/>}/>
         <Route path='post-write' element={<PostWritePage/>}/>
