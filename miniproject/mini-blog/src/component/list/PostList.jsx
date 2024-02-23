@@ -9,6 +9,7 @@ const Wrapper = styled.div`
     justify-content: center;
     
     & > * {
+        width: 720px;
         :not(:last-child) {
             margin-bottom: 16px;
         }
